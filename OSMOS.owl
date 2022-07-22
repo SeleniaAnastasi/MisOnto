@@ -1,0 +1,317 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/seleniaanastasi/OSMOS"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/seleniaanastasi/OSMOS">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://hatespeech.di.unito.it/odang</Import>
+    <Import>https://nexuslinguarum.eu/ontologies/offensive-language</Import>
+    <Declaration>
+        <Class IRI="#Ableism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ageism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Androgynising"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anti_Feminism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anti_environmentalism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anti_semitism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Antipathy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cis-Hetero-Misogyny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Community"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dehumanization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Derailing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Domination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Explicitly_hostile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gender_nonConformity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gender_trolling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gendered_insults"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Identity_denial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interdivisional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intradivisional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Irreverence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lesbian_baiting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Misgendering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Misogynistic_slur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Misogyny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missexing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neosexism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neutral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Objectification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OnlineCommunity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oppressive_Speech"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Promoting_violence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reappropriation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rudeness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sexism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sexual_harassment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trolling"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://hatespeech.di.unito.it/odang#HateSpeech"/>
+        <Class IRI="https://nexuslinguarum.eu/ontologies/offensive-language#Hate_speech"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Ableism"/>
+        <Class IRI="https://nexuslinguarum.eu/ontologies/offensive-language#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ageism"/>
+        <Class IRI="https://nexuslinguarum.eu/ontologies/offensive-language#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Androgynising"/>
+        <Class IRI="#Cis-Hetero-Misogyny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anti_Feminism"/>
+        <Class IRI="#Sexism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anti_environmentalism"/>
+        <Class IRI="https://nexuslinguarum.eu/ontologies/offensive-language#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anti_semitism"/>
+        <Class IRI="https://nexuslinguarum.eu/ontologies/offensive-language#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Antipathy"/>
+        <Class IRI="#Rudeness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cis-Hetero-Misogyny"/>
+        <Class IRI="#Misogyny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Community"/>
+        <Class IRI="http://hatespeech.di.unito.it/odang#Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dehumanization"/>
+        <Class IRI="#Misogyny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Derailing"/>
+        <Class IRI="#Misogyny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Domination"/>
+        <Class IRI="#Misogyny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explicitly_hostile"/>
+        <Class IRI="http://hatespeech.di.unito.it/odang#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gender_nonConformity"/>
+        <Class IRI="#Cis-Hetero-Misogyny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gender_trolling"/>
+        <Class IRI="#Misogyny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gendered_insults"/>
+        <Class IRI="https://nexuslinguarum.eu/ontologies/offensive-language#Insulting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Identity_denial"/>
+        <Class IRI="#Cis-Hetero-Misogyny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interdivisional"/>
+        <Class IRI="#Misogyny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intradivisional"/>
+        <Class IRI="#Misogyny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Irreverence"/>
+        <Class IRI="#Rudeness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lesbian_baiting"/>
+        <Class IRI="#Cis-Hetero-Misogyny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Misgendering"/>
+        <Class IRI="#Cis-Hetero-Misogyny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Misogynistic_slur"/>
+        <Class IRI="https://nexuslinguarum.eu/ontologies/offensive-language#Slur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Misogyny"/>
+        <Class IRI="#Oppressive_Speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missexing"/>
+        <Class IRI="#Cis-Hetero-Misogyny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neosexism"/>
+        <Class IRI="#Sexism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neutral"/>
+        <Class IRI="http://hatespeech.di.unito.it/odang#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Objectification"/>
+        <Class IRI="#Misogyny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OnlineCommunity"/>
+        <Class IRI="http://hatespeech.di.unito.it/odang#Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oppressive_Speech"/>
+        <Class IRI="https://nexuslinguarum.eu/ontologies/offensive-language#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Promoting_violence"/>
+        <Class IRI="https://nexuslinguarum.eu/ontologies/offensive-language#Hate_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reappropriation"/>
+        <Class IRI="https://nexuslinguarum.eu/ontologies/offensive-language#Non-offensive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rudeness"/>
+        <Class IRI="https://nexuslinguarum.eu/ontologies/offensive-language#Taboo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sexism"/>
+        <Class IRI="#Oppressive_Speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sexual_harassment"/>
+        <Class IRI="#Misogyny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trolling"/>
+        <Class IRI="https://nexuslinguarum.eu/ontologies/offensive-language#Insulting"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <IRI>#Interdivisional</IRI>
+        <Literal xml:lang="en">Interdivisional misogyny is that which manifests as a universal hostility towards women.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <IRI>#Intradivisional</IRI>
+        <Literal xml:lang="en">A form of misogyny separating the group Woman into two classes, Good (in-line with patriarchal sexual roles and norms) and Bad (the opposite way).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <IRI>#Misogynistic_slur</IRI>
+        <Literal xml:lang="en">They refer to only some women rather than the whole group; They appear to have no ‘neutral’ correlate.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <IRI>#Misogyny</IRI>
+        <Literal xml:lang="en">This class deals with the concept level of misogyny: systemic discrimination approach that has women as target</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <IRI>#Neosexism</IRI>
+        <Literal xml:lang="en">Neosexism is a concept defined in Tougas et al. (1999), and presents as the belief that women have already achieved equality, and that discrimination of women does not exist.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <IRI>#Objectification</IRI>
+        <Literal xml:lang="en">Being a sexual object or the way men treat women as objects.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <IRI>#Oppressive_Speech</IRI>
+        <Literal xml:lang="en">Group injustice.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <IRI>#Oppressive_Speech</IRI>
+        <Literal xml:lang="en">Systemic discrimination approach related to the position of power the speaker holds in a given context.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
